@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Guilherme - Contato</title>
+    <link rel="shortcut icon" href="img/react.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="index.html" class="logo"><span>Luiz Guilherme</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html">Início</a></li>
+                <li class="nav-item"><a href="https://github.com/Guilherme-TI?tab=repositories">Projetos</a></li>
+                <li class="nav-item"><a href="contato.html">Contato</a></li>
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="contato">
+        <form action="processar_formulario.php" method="post">
+            <h1>Contato</h1><br>
+            <input type="text" name="name" placeholder="Nome" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <textarea name="message" cols="30" rows="10" placeholder="Mensagem" required></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
